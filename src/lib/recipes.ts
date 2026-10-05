@@ -1,14 +1,15 @@
-import ovosMexidos from "@/assets/ovos-mexidos.jpg";
-import risotoParmesao from "@/assets/risoto-parmesao.jpg";
-import saladaCaprese from "@/assets/salada-caprese.jpg";
-import ovoCozido from "@/assets/ovo-cozido.jpg";
-import macarraoAlhoOleo from "@/assets/macarrao-alho-oleo.jpg";
-import frangoGrelhado from "@/assets/frango-grelhado.jpg";
-import boeufBourguignon from "@/assets/boeuf-bourguignon.jpg";
-import lasanha from "@/assets/lasanha.jpg";
-import bifeAcebolado from "@/assets/bife-acebolado.jpg";
-import sopaAbobora from "@/assets/sopa-abobora.jpg";
-import brownie from "@/assets/brownie.jpg";
+import type { Difficulty, Recipe, Substitution } from "./recipe-types";
+const ovosMexidos = "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80";
+const risotoParmesao = "https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=800&q=80";
+const saladaCaprese = "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80";
+const ovoCozido = "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80";
+const macarraoAlhoOleo = "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80";
+const frangoGrelhado = "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80";
+const boeufBourguignon = "https://images.unsplash.com/photo-1534939561126-855b8675edd7?auto=format&fit=crop&w=800&q=80";
+const lasanha = "https://images.unsplash.com/photo-1619895092538-128341789043?auto=format&fit=crop&w=800&q=80";
+const bifeAcebolado = "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80";
+const sopaAbobora = "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=800&q=80";
+const brownie = "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80";
 
 import { daily1 } from "./daily-1";
 import { daily2 } from "./daily-2";
@@ -18,10 +19,8 @@ import { daily5 } from "./daily-5";
 import { daily6 } from "./daily-6";
 
 export type { Difficulty, Substitution, Recipe } from "./recipe-types";
-import type { Recipe, Difficulty } from "./recipe-types";
 
 const baseRecipes: Recipe[] = [
-
   {
     id: "ovo-cozido",
     title: "Ovo cozido no ponto certo",

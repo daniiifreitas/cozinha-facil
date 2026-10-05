@@ -1,15 +1,15 @@
-import catCafe from "@/assets/cat-cafe.jpg";
-import catMassas from "@/assets/cat-massas.jpg";
-import catCarnes from "@/assets/cat-carnes.jpg";
-import catAves from "@/assets/cat-aves.jpg";
-import catPeixes from "@/assets/cat-peixes.jpg";
-import catArroz from "@/assets/cat-arroz.jpg";
-import catSopas from "@/assets/cat-sopas.jpg";
-import catSaladas from "@/assets/cat-saladas.jpg";
-import catLanches from "@/assets/cat-lanches.jpg";
-import catDoces from "@/assets/cat-doces.jpg";
-import catLegumes from "@/assets/cat-legumes.jpg";
-import catBebidas from "@/assets/cat-bebidas.jpg";
+const catCafe = "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=800&q=80";
+const catMassas = "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80";
+const catCarnes = "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=800&q=80";
+const catAves = "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?auto=format&fit=crop&w=800&q=80";
+const catPeixes = "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?auto=format&fit=crop&w=800&q=80";
+const catArroz = "https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=800&q=80";
+const catSopas = "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?auto=format&fit=crop&w=800&q=80";
+const catSaladas = "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&w=800&q=80";
+const catLanches = "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80";
+const catDoces = "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80";
+const catLegumes = "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80";
+const catBebidas = "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80";
 
 export type Difficulty = "Fácil" | "Médio" | "Difícil";
 
